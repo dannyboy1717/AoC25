@@ -46,13 +46,14 @@
             }
             else if (!right && position - instrValue <= 0)
             {
-                passes = Math.Abs((position - instrValue - 1) / 100) + (shouldIncrement ? 1 : 0);
+                passes = Math.Abs((position - instrValue) / 100) + (shouldIncrement ? 1 : 0);
             }
             else
             {
                 passes = 0;
             }
-            return Mod(rotate(position, instrValue), 100);
+            int rtn = Mod(rotate(position, instrValue), 100);
+            return rtn;
         }
     }
 }
