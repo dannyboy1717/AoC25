@@ -30,6 +30,9 @@
             //Console.WriteLine(Day5.PartOne("Data\\Day5\\p1.txt"));
             //Console.WriteLine("//--- Day 5, Part 2 ---//");
             //Console.WriteLine(Day5.PartTwo("Data\\Day5\\p1.txt"));
+
+            Console.WriteLine("//--- Day 6, Part 1 ---//");
+            Console.WriteLine(Day6.PartOne("Data\\Day6\\p1Test.txt"));
         }
     }
 }
